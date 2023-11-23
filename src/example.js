@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function Example() {
 	console.log("Example Component is Rendered.")
@@ -10,4 +9,4 @@ function Example() {
   );
 }
 
-export default Example;
+export default React.memo(Example);
